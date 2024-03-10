@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>By Bahutski</title>
+<link rel="icon" type="image/x-icon" href="https://sb.bsu.by/Data/favicon.ico">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #000000;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h2 {
+  font-size: 64px;
+  color:#f1f1f1
+}
+/* Style the header */
+header {
+  position: ;
+  padding: 2%;
+  text-align: center;
+  font-size: 35px;
+  border-radius: 30px;
+  background: linear-gradient(146deg, #FAFF00 -12.75%, #FF1A28 134.16%);
+  width: 100%;
+  height: auto;
+
+}
+
+/* Create two columns/boxes that floats next to each other */
+nav {
+  position: fixed;
+  border-radius: 30px;
+  background: linear-gradient(146deg, #FAFF00 -12.75%, #FF1A28 134.16%);
+  width: auto;
+  height: auto;
+  float: left;
+  width: 28.5%;
+  height: auto; /* only for demonstration, should be removed */
+  padding: 20px;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: georgian;
+  padding: 0;
+}
+
+article {
+  border-radius: 30px;
+  background: linear-gradient(146deg, #FAFF00 -12.75%, #FF1A28 134.16%);
+  width: 70%;
+  height: auto;
+  float: right;
+  padding: 20px;
+  background-color: #f1f1f1;
+  height: 300px; /* only for demonstration, should be removed */
+}
+
+/* Clear floats after the columns */
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the footer */
+footer {
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: rgb(0, 0, 0);
+  text-align: center; 
+  background-color: #393939;
+  padding: 10px;
+  text-align: left;
+  color: white;
+}
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+</style>
+</head>
+<body>
+
+<header>
+  <h2>HTML</h2>
+</header>
+
+<section>
+  <nav>
+    <dl>
+      <li><a href="#a">Question A</a></li>
+      <li><a href="#b">Question B</a></li>
+      <li><a href="#c">Question C</a></li>
+      <li><a href="#d">Question D</a></li>
+      <li><a href="#h">Question E</a></li>
+      <li><a href="#f">Question F</a></li>
+      <li><a href="#e">Video</a></li>
+      <li><a href="#g">Audio</a></li>
+    </dl>
+  </nav>
+  
+  <article id="a">
+    <h1>When HTML5 has become a standard? What were the main reasons for developing new standard?</h1>
+    <p>HTML5 became a standard on October 28, 2014. The main reasons for developing the new standard were to improve the language with support for the latest multimedia while keeping it easily readable by humans and consistently understood by computers and devices.</p>
+  </article>
+  <article id="b">
+    <h1>What is a difference between W3C HTML5 and WHATWG HTML Living Standard?</h1>
+    <p>The main difference between W3C HTML5 and WHATWG HTML Living Standard lies in their governance and update processes. W3C (World Wide Web Consortium) follows a more formal standards process with versioned specifications, while WHATWG (Web Hypertext Application Technology Working Group) maintains a living document that continually evolves based on community input and implementation feedback.</p>
+  </article>
+  <article id="c">
+    <h1>What is the minimal HTML page code?</h1>
+    <img src="https://miro.medium.com/v2/resize:fit:498/1*5gJzummAqpBDGATo0fjU6Q.jpeg" alt="HTML5 Icon" style="height:220px;">
+  </article>
+  <article id="d">
+    <h1>Comment on semantic and presentational markup. Why presentational markup is considered deprecated now?</h1>
+    <p>London is the capital city of England. It is the most populous city in the  United Kingdom, with a metropolitan area of over 13 million inhabitants.</p>
+    <p>Standing on the River Thames, London has been a major settlement for two millennia, its history going back to its founding by the Romans, who named it Londinium.</p>
+  </article>
+  <article id="h">
+    <h1>How you can check browser support for particular tag or atribute?</h1>
+    <p>London is the capital city of England. It is the most populous city in the  United Kingdom, with a metropolitan area of over 13 million inhabitants.</p>
+    <p>Standing on the River Thames, London has been a major settlement for two millennia, its history going back to its founding by the Romans, who named it Londinium.</p>
+  </article>
+  <article id="f">
+    <h1>What are the audio and video formats, officially supported by HTML standard? What happens if you use other format?</h1>
+    <p>London is the capital city of England. It is the most populous city in the  United Kingdom, with a metropolitan area of over 13 million inhabitants.</p>
+    <p>Standing on the River Thames, London has been a major settlement for two millennia, its history going back to its founding by the Romans, who named it Londinium.</p>
+  </article>
+  <article id="e">
+    <h1>More video on that topic:</h1>
+    <video
+  width="300"
+  controls
+  poster="https://archive.org/download/WebmVp8Vorbis/webmvp8.gif">
+  <source
+    src="https://archive.org/download/WebmVp8Vorbis/webmvp8_512kb.mp4"
+    type="video/mp4" />
+  <source
+    src="https://archive.org/download/WebmVp8Vorbis/webmvp8.ogv"
+    type="video/ogg" />
+  <source
+    src="https://archive.org/download/WebmVp8Vorbis/webmvp8.webm"
+    type="video/webm" />
+  Your browser doesn't support HTML5 video tag.
+</video>
+  </article id="g">
+  <article>
+    <h1>More audio on that topic:</h1>
+    <figure>
+      <figcaption>Listen to the BelAU:</figcaption>
+      <audio controls src="https://www.belau.info/templates/belau/images/gimn/gimn.mp3"></audio>
+    </figure>
+  </article>
+</section>
+
+<footer>
+  <p>everything was clear and fine</p>
+</footer>
+
+</body>
+</html>
+
